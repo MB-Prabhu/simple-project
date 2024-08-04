@@ -5,8 +5,35 @@
 }
 
 .searchfield{
-border: 2px solid black;
-width: 400px;
+border: 2px solid #4b9595;
+width: 500px;
 margin: 70px auto;
+position: relative;
+border-radius: 16px;
+}
 
+#searchbox{
+    width: 420px;
+    height: 40px;
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+    color: #4b9595;
+}
+
+#searchbox::placeholder{
+    font-size: 18px;
+}
+
+#searchbtn{
+    width: 72px;
+    height: 40px;
+    border-radius: 16px;
+    right: 0;
+    border:none;
+    outline: none;
+    font-size: 18px;
+    background-color: #4b9595;
 }
